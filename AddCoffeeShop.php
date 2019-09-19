@@ -13,7 +13,7 @@
     $errors = array();
     
     // connect to the database
-    $db = mysqli_connect('localhost', 'root', 'Biketowork!11', 'coffeeshop') or die("Could not connect." . mysqli_connect_error());
+    $db = mysqli_connect('localhost', 'root', '', 'coffeeshop') or die("Could not connect." . mysqli_connect_error());
 
     if(isset($_POST['addShopButton'])) {
         $coffeeShopID = mysqli_real_escape_string($db, $_POST['coffeeShopID']);
