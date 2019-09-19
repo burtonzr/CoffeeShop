@@ -32,7 +32,7 @@
             <h1 class="text-center pb-2">Products For Sale</h1>
             <?php
                 // connect to the database
-                $db = mysqli_connect('localhost', 'root', 'Biketowork!11', 'coffeeshop') or die("Could not connect." . mysqli_connect_error());
+                $db = mysqli_connect('localhost', 'root', '', 'coffeeshop') or die("Could not connect." . mysqli_connect_error());
                 $productName = "";
                 $originDescription = "";
                 $price = "";
